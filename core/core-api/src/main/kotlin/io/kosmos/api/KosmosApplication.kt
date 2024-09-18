@@ -1,4 +1,4 @@
-package io.kosmos
+package io.kosmos.api
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication

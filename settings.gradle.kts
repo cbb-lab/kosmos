@@ -1,6 +1,10 @@
 rootProject.name = "kosmos"
 
-include("core")
+include(
+    "core:core-api",
+    "core:core-domain",
+    "infrastructure:database",
+)
 
 pluginManagement {
     val kotlinVersion: String by settings
